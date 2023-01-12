@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,700;1,500&family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 870px;
+    padding: 33px;
+}
+
 /*top players style--*/
+.section-title {
+    font-size: 24px;
+
+    color: #562EFF;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -13,4 +38,8 @@
 .player {
     display: flex;
     align-items: center;
+}
+
+.player-name {
+    margin: 16px;
 }
